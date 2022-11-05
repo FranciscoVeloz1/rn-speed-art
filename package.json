@@ -1,0 +1,25 @@
+{
+  "name": "rn-speed-art",
+  "version": "1.0.1",
+  "description": "React native desing library",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "clean": "rmdir /s dist",
+    "build": "tsc --jsx react-native",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "author": "Francisco Veloz",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.0.21",
+    "@types/react-native": "^0.70.6",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-native": "^0.70.4"
+  }
+}
