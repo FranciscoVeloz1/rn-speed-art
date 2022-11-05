@@ -7,9 +7,12 @@ export const vars = {
     dark_info: '#0075e2',
     danger: '#ee2c2c',
     dark_danger: '#d40202',
+    success: '#00d351',
     secondary: '#c7c7c7',
     light_secondary: '#eff1f2',
     very_light_secondary: '#f7f7f7',
+    dark: "#000000",
+    white: "#ffffff",
   },
 
   radius: 6,

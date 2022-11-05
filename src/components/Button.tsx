@@ -1,3 +1,4 @@
+import React from "react";
 import { vars } from "../styles/vars";
 import {
   StyleSheet,
@@ -18,6 +19,7 @@ interface props {
     | "very_dark_primary"
     | "danger"
     | "dark_danger"
+    | "success"
     | "info"
     | "dark_info"
     | "secondary"

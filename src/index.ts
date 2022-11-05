@@ -1,3 +1,8 @@
+import { s } from "./styles";
 import Button from "./components/Button";
+import Card from "./components/Button";
+import Container from "./components/Container";
+import Input from "./components/Input";
+import Shadow from "./components/Shadow";
 
-export { Button };
+export { s, Button, Card, Container, Input, Shadow };

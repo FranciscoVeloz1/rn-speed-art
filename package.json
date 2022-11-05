@@ -1,6 +1,6 @@
 {
   "name": "rn-speed-art",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React native desing library",
   "main": "dist/index.js",
   "type": "module",
