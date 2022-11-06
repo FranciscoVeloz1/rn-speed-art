@@ -1,4 +1,4 @@
-<h2 align="center">React Native Speed Art</h2>
+<h2 align="center">React Native Speed Art 📱</h2>
 <p align="center">
 The fastest design library for React Native.
 </p>
@@ -18,9 +18,7 @@ React Native Speed Art is a design library with many types of customizable and r
 ## Quick start
 
 -Install with [npm](https://www.npmjs.com/): `npm i rn-speed-art`
-
 -The library has different components. The most common are buttons, inputs and container, you can import theme like this: `import { Button, Input, Container } from "rn-speed-art"`.
-
 -Each component has its own properties, some are required and some are optional.
 
 ```
