@@ -29,9 +29,9 @@ import { Container, Button, Input } from "rn-speed-art"
 const App = () => {
   return (
     <Container>
-	  <Button text="Save" onPress={() => console.log('Hello world')} />
-	  <Input placeholder="Email" onChangeText={(text: string) => console.log(text)} />
-	</Container>
+	    <Button text="Save" onPress={() => console.log('Hello world')} />
+	    <Input placeholder="Email" onChangeText={(text: string) => console.log(text)} />
+	  </Container>
   );
 }
 ```
