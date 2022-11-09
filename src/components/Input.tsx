@@ -15,7 +15,7 @@ interface props {
   onChangeText: (text: string) => void;
   placeholderColor?: string;
   value?: string;
-  styles?: ViewStyle[] | TextStyle[];
+  style?: ViewStyle[] | TextStyle[];
   secureTextEntry?: boolean;
   onSubmitEditing?: (e: NativeSyntheticEvent<TextInputSubmitEditingEventData>) => void;
   keyboardType?: KeyboardTypeOptions;
@@ -61,7 +61,7 @@ interface props {
 }
 
 const Input = ({
-  styles,
+  style,
   value,
   placeholder,
   placeholderColor,
@@ -74,7 +74,7 @@ const Input = ({
 }: props) => {
   return (
     <TextInput
-      style={[s.input, styles]}
+      style={[s.input, style]}
       value={value}
       autoComplete={autoComplete}
       placeholder={placeholder}

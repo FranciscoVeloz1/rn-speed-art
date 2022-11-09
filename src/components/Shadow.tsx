@@ -4,11 +4,11 @@ import { View, ViewStyle, StyleSheet } from 'react-native';
 
 interface props {
   children: JSX.Element | JSX.Element[];
-  styles?: ViewStyle[];
+  style?: ViewStyle[];
 }
 
-const Shadow = ({ children, styles }: props) => {
-  return <View style={[s.shadow, s.elevation, styles]}>{children}</View>;
+const Shadow = ({ children, style }: props) => {
+  return <View style={[s.shadow, s.elevation, style]}>{children}</View>;
 };
 
 export default Shadow;
@@ -17,7 +17,6 @@ const s = StyleSheet.create({
   shadow: {
     backgroundColor: '#ffffff',
     borderRadius: vars.radius,
-    width: '90%',
   },
 
   elevation: {

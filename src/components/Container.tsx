@@ -3,11 +3,11 @@ import React from 'react';
 
 interface props {
   children: JSX.Element | JSX.Element[];
-  styles?: ViewStyle[];
+  style?: ViewStyle[];
 }
 
-const Container = ({ children, styles }: props) => {
-  return <View style={[s.container, styles]}>{children}</View>;
+const Container = ({ children, style }: props) => {
+  return <View style={[s.container, style]}>{children}</View>;
 };
 
 export default Container;

@@ -86,4 +86,25 @@ export const text = StyleSheet.create({
   text_xl4: {
     fontSize: vars.xl4,
   },
+
+  //Positions
+  text_center: {
+    textAlign: 'center',
+  },
+
+  text_auto: {
+    textAlign: "auto",
+  },
+
+  text_justify: {
+    textAlign: "justify",
+  },
+
+  text_left: {
+    textAlign: "left",
+  },
+
+  text_right: {
+    textAlign: 'right',
+  },
 });

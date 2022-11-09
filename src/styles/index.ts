@@ -6,6 +6,7 @@ import { sizes } from './sizes';
 import { background } from './background';
 import { border } from './border';
 import { text } from './text';
+import { cols } from './cols';
 
 export const s = StyleSheet.create({
   ...margin,
@@ -15,4 +16,5 @@ export const s = StyleSheet.create({
   ...background,
   ...border,
   ...text,
+  ...cols,
 });
